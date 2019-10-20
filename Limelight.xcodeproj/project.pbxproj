@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1CC807235B8D5E00306F54 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC806235B8D5E00306F54 /* Structures.swift */; };
+		4F1CC80A235B92F800306F54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC809235B92F800306F54 /* Constants.swift */; };
+		4F1CC80C235B9C3700306F54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */; };
+		4F1CC80E235BA21800306F54 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC80D235BA21800306F54 /* SignInViewController.swift */; };
+		4F1CC810235BA22900306F54 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC80F235BA22900306F54 /* SignUpViewController.swift */; };
+		4F458F7D235C060600933EB6 /* ButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F7C235C060600933EB6 /* ButtonStackView.swift */; };
+		4F458F7F235C064100933EB6 /* TinderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F7E235C064100933EB6 /* TinderButton.swift */; };
+		4F458F8B235C08A400933EB6 /* TrackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8A235C08A400933EB6 /* TrackCard.swift */; };
+		4F458F8D235C094000933EB6 /* TrackCardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */; };
+		4F458F8F235C09E400933EB6 /* TrackCardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */; };
+		4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */; };
 		4F9DD918235A99F400DCA4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD917235A99F400DCA4AC /* AppDelegate.swift */; };
 		4F9DD91A235A99F400DCA4AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */; };
 		4F9DD91C235A99F400DCA4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD91B235A99F400DCA4AC /* ViewController.swift */; };
@@ -14,10 +25,24 @@
 		4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */; };
 		4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD923235A99F500DCA4AC /* Assets.xcassets */; };
 		4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD925235A99F500DCA4AC /* LaunchScreen.storyboard */; };
+		E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F9DD914235A99F400DCA4AC /* Limelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
+		3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1CC806235B8D5E00306F54 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		4F1CC809235B92F800306F54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F1CC80D235BA21800306F54 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4F1CC80F235BA22900306F54 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4F458F7C235C060600933EB6 /* ButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStackView.swift; sourceTree = "<group>"; };
+		4F458F7E235C064100933EB6 /* TinderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderButton.swift; sourceTree = "<group>"; };
+		4F458F8A235C08A400933EB6 /* TrackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCard.swift; sourceTree = "<group>"; };
+		4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardOverlay.swift; sourceTree = "<group>"; };
+		4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardContentView.swift; sourceTree = "<group>"; };
+		4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardFooterView.swift; sourceTree = "<group>"; };
+		4F9DD914235A99F400DCA4AC /* Limelight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limelight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9DD917235A99F400DCA4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F9DD91B235A99F400DCA4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +51,7 @@
 		4F9DD923235A99F500DCA4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9DD926235A99F500DCA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F9DD928235A99F500DCA4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +59,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1CC811235BA23300306F54 /* SignInSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4F1CC80D235BA21800306F54 /* SignInViewController.swift */,
+				4F1CC80F235BA22900306F54 /* SignUpViewController.swift */,
+			);
+			path = SignInSignUp;
+			sourceTree = "<group>";
+		};
 		4F9DD90B235A99F400DCA4AC = {
 			isa = PBXGroup;
 			children = (
 				4F9DD916235A99F400DCA4AC /* Limelight */,
 				4F9DD915235A99F400DCA4AC /* Products */,
+				BB9CA1FCDEA63D79AC3AD3EF /* Pods */,
+				B98EECFE49A8404C5BDFB110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4F9DD915235A99F400DCA4AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F9DD914235A99F400DCA4AC /* Limelight.app */,
+				4F9DD914235A99F400DCA4AC /* Limelight2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,13 +99,40 @@
 				4F9DD917235A99F400DCA4AC /* AppDelegate.swift */,
 				4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */,
 				4F9DD91B235A99F400DCA4AC /* ViewController.swift */,
+				4F458F8A235C08A400933EB6 /* TrackCard.swift */,
+				4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */,
+				4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */,
+				4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */,
+				4F458F7C235C060600933EB6 /* ButtonStackView.swift */,
+				4F458F7E235C064100933EB6 /* TinderButton.swift */,
+				4F1CC806235B8D5E00306F54 /* Structures.swift */,
+				4F1CC809235B92F800306F54 /* Constants.swift */,
+				4F1CC811235BA23300306F54 /* SignInSignUp */,
 				4F9DD91D235A99F400DCA4AC /* Main.storyboard */,
 				4F9DD923235A99F500DCA4AC /* Assets.xcassets */,
 				4F9DD925235A99F500DCA4AC /* LaunchScreen.storyboard */,
 				4F9DD928235A99F500DCA4AC /* Info.plist */,
 				4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */,
+				4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */,
 			);
 			path = Limelight;
+			sourceTree = "<group>";
+		};
+		B98EECFE49A8404C5BDFB110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9CA1FCDEA63D79AC3AD3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */,
+				283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9DD92B235A99F500DCA4AC /* Build configuration list for PBXNativeTarget "Limelight" */;
 			buildPhases = (
+				8E999E53C8CE71F34316D721 /* [CP] Check Pods Manifest.lock */,
 				4F9DD910235A99F400DCA4AC /* Sources */,
 				4F9DD911235A99F400DCA4AC /* Frameworks */,
 				4F9DD912235A99F400DCA4AC /* Resources */,
+				4F1CC808235B8DEC00306F54 /* ShellScript */,
+				61DB93CC1E75BA9E48FD004F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +155,7 @@
 			);
 			name = Limelight;
 			productName = Limelight;
-			productReference = 4F9DD914235A99F400DCA4AC /* Limelight.app */;
+			productReference = 4F9DD914235A99F400DCA4AC /* Limelight2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */,
+				4F1CC80C235B9C3700306F54 /* GoogleService-Info.plist in Resources */,
 				4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */,
 				4F9DD91F235A99F400DCA4AC /* Main.storyboard in Resources */,
 			);
@@ -136,15 +205,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F1CC808235B8DEC00306F54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		61DB93CC1E75BA9E48FD004F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E999E53C8CE71F34316D721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Limelight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F9DD910235A99F400DCA4AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1CC80E235BA21800306F54 /* SignInViewController.swift in Sources */,
+				4F458F7F235C064100933EB6 /* TinderButton.swift in Sources */,
+				4F458F8B235C08A400933EB6 /* TrackCard.swift in Sources */,
+				4F1CC807235B8D5E00306F54 /* Structures.swift in Sources */,
+				4F1CC810235BA22900306F54 /* SignUpViewController.swift in Sources */,
 				4F9DD91C235A99F400DCA4AC /* ViewController.swift in Sources */,
 				4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */,
+				4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */,
 				4F9DD918235A99F400DCA4AC /* AppDelegate.swift in Sources */,
+				4F458F8F235C09E400933EB6 /* TrackCardContentView.swift in Sources */,
+				4F458F7D235C060600933EB6 /* ButtonStackView.swift in Sources */,
 				4F9DD91A235A99F400DCA4AC /* SceneDelegate.swift in Sources */,
+				4F458F8D235C094000933EB6 /* TrackCardOverlay.swift in Sources */,
+				4F1CC80A235B92F800306F54 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +424,7 @@
 		};
 		4F9DD92C235A99F500DCA4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,8 +434,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Limelight.Limelight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insomniapps.locartist;
+				PRODUCT_NAME = Limelight2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +443,7 @@
 		};
 		4F9DD92D235A99F500DCA4AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,8 +453,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Limelight.Limelight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insomniapps.locartist;
+				PRODUCT_NAME = Limelight2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
