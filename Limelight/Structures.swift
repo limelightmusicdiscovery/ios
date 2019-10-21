@@ -29,6 +29,7 @@ struct User {
     static var dislikedTracks = [String]()
     static var following = [String]()
     static var followers = [String]()
+    static var discoverBlacklist = [String]()
     static var socials = ["applemusic": "",
                           "soundcloud": "",
                           "spotify": "",
