@@ -10,6 +10,9 @@ PODS:
     - FirebaseAuth (~> 6.3.0)
   - Firebase/CoreOnly (6.10.0):
     - FirebaseCore (= 6.3.1)
+  - Firebase/Database (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.1)
   - Firebase/Firestore (6.10.0):
     - Firebase/CoreOnly
     - FirebaseFirestore (~> 1.6.0)
@@ -32,6 +35,10 @@ PODS:
     - GoogleUtilities/Logger (~> 6.2)
     - nanopb (~> 0.3.901)
   - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseDatabase (6.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
   - FirebaseFirestore (1.6.0):
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 6.2)
@@ -47,6 +54,8 @@ PODS:
     - leveldb-library (~> 1.22)
     - nanopb (~> 0.3.901)
     - Protobuf (>= 3.9.2, ~> 3.9)
+  - GeoFire (3.0.0):
+    - Firebase/Database (~> 6.0)
   - GoogleDataTransport (3.0.1)
   - GoogleDataTransportCCTSupport (1.2.1):
     - GoogleDataTransport (~> 3.0)
@@ -97,6 +106,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Firestore
+  - GeoFire (from `https://github.com/firebase/geofire-objc.git`, branch `master`)
   - PopBounceButton
   - Shuffle-iOS
 
@@ -109,6 +119,7 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
     - FirebaseFirestore
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -123,6 +134,16 @@ SPEC REPOS:
     - Protobuf
     - Shuffle-iOS
 
+EXTERNAL SOURCES:
+  GeoFire:
+    :branch: master
+    :git: https://github.com/firebase/geofire-objc.git
+
+CHECKOUT OPTIONS:
+  GeoFire:
+    :commit: 68b4844d179789dca88036a7cd6e838acec5fd81
+    :git: https://github.com/firebase/geofire-objc.git
+
 SPEC CHECKSUMS:
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
@@ -131,7 +152,9 @@ SPEC CHECKSUMS:
   FirebaseCore: 064c2dd92a8ca5974bbdcb080df9921e46bd34cd
   FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
   FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseDatabase: 524802f7694268c79d34aeac3d67997593e1a0c9
   FirebaseFirestore: 5a9e9a14305336e8d1a4f915a45ecf0f5d6dcaec
+  GeoFire: 031e3501c42205339a58b38c05a39cb082aa9f30
   GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
   GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
@@ -145,6 +168,6 @@ SPEC CHECKSUMS:
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   Shuffle-iOS: d1b64066af844e075e97619f80cda10b9c0a04b0
 
-PODFILE CHECKSUM: 12f1717fad1b4c43cb0f3bf9a2f4c49d42799d47
+PODFILE CHECKSUM: ea0f8dfdb06c62a8b31248de8e686225dab7e752
 
 COCOAPODS: 1.8.4

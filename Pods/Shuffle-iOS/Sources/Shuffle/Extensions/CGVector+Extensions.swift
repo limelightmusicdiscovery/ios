@@ -5,8 +5,7 @@
 //  Created by Mac Gallagher on 4/24/19.
 //  Copyright © 2019 Mac Gallagher. All rights reserved.
 //
- // swiftlint:disable vertical_whitespace line_length unused_closure_parameter trailing_whitespace identifier_name function_body_length shorthand_operator
-
+// swiftlint:disable vertical_whitespace line_length unused_closure_parameter identifier_name shorthand_operator
 import CoreGraphics
 
 extension CGVector {
