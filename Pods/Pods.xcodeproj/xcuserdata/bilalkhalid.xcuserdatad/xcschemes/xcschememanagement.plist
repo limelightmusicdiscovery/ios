@@ -46,6 +46,11 @@
 		</dict>
 		<key>FirebaseFirestore.xcscheme</key>
 		<dict>
+<<<<<<< Updated upstream
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> Stashed changes
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
@@ -56,6 +61,11 @@
 		</dict>
 		<key>GeoFire.xcscheme</key>
 		<dict>
+<<<<<<< Updated upstream
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> Stashed changes
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
