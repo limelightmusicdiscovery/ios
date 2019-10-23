@@ -9,12 +9,15 @@
 import UIKit
 import Shuffle_iOS
 import PopBounceButton
-
+import FirebaseDatabase
+import GeoFire
 // swiftlint:disable vertical_whitespace line_length
 
 
 
 class ViewController: UIViewController, ButtonStackViewDelegate, SwipeCardStackDataSource, SwipeCardStackDelegate  {
+    
+    
     
     func cardStack(_ cardStack: SwipeCardStack, cardForIndexAt index: Int) -> SwipeCard {
                return SampleCard(model: cardModels[index])
@@ -90,6 +93,17 @@ class ViewController: UIViewController, ButtonStackViewDelegate, SwipeCardStackD
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let geofireRef = Database.database().reference()
+        let geoFire = GeoFire(firebaseRef: geofireRef)
+        
+       geoFire.setLocation(CLLocation(latitude: 37.7853889, longitude: -122.4056973), forKey: "firebase-hq") { (error) in
+          if (error != nil) {
+            print("An error occured: \(error)")
+          } else {
+            print("Saved location successfully!")
+          }
+        }
         
         cardStack.delegate = self
         cardStack.dataSource = self

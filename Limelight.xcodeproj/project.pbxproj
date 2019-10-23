@@ -25,12 +25,10 @@
 		4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */; };
 		4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD923235A99F500DCA4AC /* Assets.xcassets */; };
 		4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD925235A99F500DCA4AC /* LaunchScreen.storyboard */; };
-		E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */; };
+		6946E638D9347A668EBB0E04 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
-		3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
 		4F1CC806235B8D5E00306F54 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		4F1CC809235B92F800306F54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -51,7 +49,9 @@
 		4F9DD923235A99F500DCA4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9DD926235A99F500DCA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F9DD928235A99F500DCA4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
+		BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
+		F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */,
+				6946E638D9347A668EBB0E04 /* Pods_Limelight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 				4F9DD916235A99F400DCA4AC /* Limelight */,
 				4F9DD915235A99F400DCA4AC /* Products */,
 				BB9CA1FCDEA63D79AC3AD3EF /* Pods */,
-				B98EECFE49A8404C5BDFB110 /* Frameworks */,
+				794CC82E41B0595E5BC01A06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,10 +118,10 @@
 			path = Limelight;
 			sourceTree = "<group>";
 		};
-		B98EECFE49A8404C5BDFB110 /* Frameworks */ = {
+		794CC82E41B0595E5BC01A06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */,
+				F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 		BB9CA1FCDEA63D79AC3AD3EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */,
-				283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */,
+				BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */,
+				6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -142,12 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9DD92B235A99F500DCA4AC /* Build configuration list for PBXNativeTarget "Limelight" */;
 			buildPhases = (
-				8E999E53C8CE71F34316D721 /* [CP] Check Pods Manifest.lock */,
+				C63B2AD25424445F1840CC19 /* [CP] Check Pods Manifest.lock */,
 				4F9DD910235A99F400DCA4AC /* Sources */,
 				4F9DD911235A99F400DCA4AC /* Frameworks */,
 				4F9DD912235A99F400DCA4AC /* Resources */,
 				4F1CC808235B8DEC00306F54 /* ShellScript */,
-				61DB93CC1E75BA9E48FD004F /* [CP] Embed Pods Frameworks */,
+				32E0DB585CDE68D92AFE06A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +206,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		32E0DB585CDE68D92AFE06A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4F1CC808235B8DEC00306F54 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,24 +240,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		61DB93CC1E75BA9E48FD004F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E999E53C8CE71F34316D721 /* [CP] Check Pods Manifest.lock */ = {
+		C63B2AD25424445F1840CC19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -412,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -424,7 +424,7 @@
 		};
 		4F9DD92C235A99F500DCA4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3687291F0181C079399849FC /* Pods-Limelight.debug.xcconfig */;
+			baseConfigurationReference = BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,7 +443,7 @@
 		};
 		4F9DD92D235A99F500DCA4AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 283552DFCF116E1BF1E09CEC /* Pods-Limelight.release.xcconfig */;
+			baseConfigurationReference = 6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

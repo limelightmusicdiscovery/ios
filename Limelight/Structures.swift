@@ -10,74 +10,12 @@
 import Foundation
 import UIKit
 
-
-
 enum SavedKeys {
     static let username = ""
     static let email = ""
     static let password = ""
     static let uid = ""
-
 }
-
-struct User {
-    static var alias = ""
-    static var type = ""
-    static var subscription = ""
-    static var library = [String]()
-    static var likedTracks = [String]()
-    static var dislikedTracks = [String]()
-    static var following = [String]()
-    static var followers = [String]()
-    static var discoverBlacklist = [String]()
-    static var socials = ["applemusic": "",
-                          "soundcloud": "",
-                          "spotify": "",
-                          "twitter": "",
-                          "instagram": "",
-                          "limelight": ""]
-    static var imageUrl = ""
-    static var location = ["latitude": 0,
-                           "longitude": 0,
-                           "city": "",
-                           "state": "",
-                           "country": ""] as [String: Any]
-    static var uid = ""
-    static var username = ""
-    static var email = ""
-    static var bio = ""
-    static var socialClicks = ["applemusic": 0,
-                               "soundcloud": 0,
-                               "spotify": 0,
-                               "twitter": 0,
-                               "instagram": 0,
-                               "limelight": 0]
-}
-
-struct Track {
-    static var artistUid = ""
-    static var genre = ""
-    static var albumTitle = ""
-    static var description = ""
-    static var imageUrl = ""
-    static var socials = ["applemusic": "",
-                          "soundcloud": "",
-                          "spotify": "",
-                          "limelight": ""]
-    static var socialClicks = ["applemusic": 0,
-                               "soundcloud": 0,
-                               "spotify": 0,
-                               "limelight": 0]
-    static var radius = 0 //KM
-    static var streamCount = 0
-    static var datePosted = 0
-    static var likedCount = 0
-    static var dislikeCount = 0
-    static var title = ""
-    static var trackUrl = ""
-    static var trackId = ""
-}
-
 
 struct SampleCardModel {
     let name: String

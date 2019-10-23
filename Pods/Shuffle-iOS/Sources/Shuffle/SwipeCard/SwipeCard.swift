@@ -5,9 +5,7 @@
 //  Created by Mac Gallagher on 5/12/19.
 //  Copyright © 2019 Mac Gallagher. All rights reserved.
 //
-
- // swiftlint:disable vertical_whitespace line_length unused_closure_parameter trailing_whitespace identifier_name function_body_length
-
+// swiftlint:disable vertical_whitespace line_length unused_closure_parameter identifier_name
 import Foundation
 
 let CardDidFinishSwipeAnimationNotification
