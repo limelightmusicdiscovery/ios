@@ -25,12 +25,20 @@
 		4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */; };
 		4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD923235A99F500DCA4AC /* Assets.xcassets */; };
 		4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD925235A99F500DCA4AC /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		4FB66B7223625F04009C6E3E /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB66B7123625F04009C6E3E /* LibraryViewController.swift */; };
 		4FCFFF0D235FB4F7006738C5 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFFF0C235FB4F7006738C5 /* DiscoverViewController.swift */; };
 		4FE7DDD3235E3B60005210AA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD0235E3B60005210AA /* Track.swift */; };
 		4FE7DDD4235E3B60005210AA /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD1235E3B60005210AA /* Comment.swift */; };
 		4FE7DDD5235E3B60005210AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD2235E3B60005210AA /* User.swift */; };
 		6946E638D9347A668EBB0E04 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */; };
+=======
+		C4C8A158235D3EA200CA103E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A157235D3EA200CA103E /* User.swift */; };
+		C4C8A15A235D3ED100CA103E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A159235D3ED100CA103E /* Track.swift */; };
+		C4C8A15C235D3FFF00CA103E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A15B235D3FFF00CA103E /* Utils.swift */; };
+		C4C8A160235D668B00CA103E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A15F235D668B00CA103E /* Comment.swift */; };
+		E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */; };
+>>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +69,11 @@
 		4FE7DDD2235E3B60005210AA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
 		BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
-		F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C8A157235D3EA200CA103E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4C8A159235D3ED100CA103E /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		C4C8A15B235D3FFF00CA103E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C4C8A15F235D668B00CA103E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +118,11 @@
 		4F9DD916235A99F400DCA4AC /* Limelight */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				4FE7DDCF235E3B60005210AA /* Schemas */,
+=======
+				C4C8A15E235D561100CA103E /* Schemas */,
+>>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
 				4F9DD917235A99F400DCA4AC /* AppDelegate.swift */,
 				4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */,
 				4F9DD91B235A99F400DCA4AC /* ViewController.swift */,
@@ -127,6 +143,7 @@
 				4F9DD928235A99F500DCA4AC /* Info.plist */,
 				4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */,
 				4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */,
+				C4C8A15B235D3FFF00CA103E /* Utils.swift */,
 			);
 			path = Limelight;
 			sourceTree = "<group>";
@@ -156,6 +173,16 @@
 				6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4C8A15E235D561100CA103E /* Schemas */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8A157235D3EA200CA103E /* User.swift */,
+				C4C8A159235D3ED100CA103E /* Track.swift */,
+				C4C8A15F235D668B00CA103E /* Comment.swift */,
+			);
+			path = Schemas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,11 +309,19 @@
 				4F1CC810235BA22900306F54 /* SignUpViewController.swift in Sources */,
 				4F9DD91C235A99F400DCA4AC /* ViewController.swift in Sources */,
 				4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */,
+<<<<<<< HEAD
 				4FE7DDD5235E3B60005210AA /* User.swift in Sources */,
 				4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */,
 				4FCFFF0D235FB4F7006738C5 /* DiscoverViewController.swift in Sources */,
+=======
+				C4C8A160235D668B00CA103E /* Comment.swift in Sources */,
+				4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */,
+				C4C8A158235D3EA200CA103E /* User.swift in Sources */,
+				C4C8A15C235D3FFF00CA103E /* Utils.swift in Sources */,
+>>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
 				4F9DD918235A99F400DCA4AC /* AppDelegate.swift in Sources */,
 				4F458F8F235C09E400933EB6 /* TrackCardContentView.swift in Sources */,
+				C4C8A15A235D3ED100CA103E /* Track.swift in Sources */,
 				4F458F7D235C060600933EB6 /* ButtonStackView.swift in Sources */,
 				4FE7DDD4235E3B60005210AA /* Comment.swift in Sources */,
 				4FE7DDD3235E3B60005210AA /* Track.swift in Sources */,
