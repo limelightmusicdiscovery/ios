@@ -30,5 +30,5 @@ struct Track {
     static var title = ""
     static var trackUrl = ""
     static var trackId = ""
-    static var comments = []
+    static var comments = [Comment]()
 }

@@ -97,6 +97,7 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - PolioPager (2.0.8)
   - pop (1.0.12)
   - PopBounceButton (1.2.2):
     - pop (~> 1.0)
@@ -107,6 +108,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Firestore
   - GeoFire (from `https://github.com/firebase/geofire-objc.git`, branch `master`)
+  - PolioPager
   - PopBounceButton
   - Shuffle-iOS
 
@@ -129,6 +131,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - PolioPager
     - pop
     - PopBounceButton
     - Protobuf
@@ -163,11 +166,12 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PolioPager: fdd1893dd85c96b23db3239c3cdf46857b48b643
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PopBounceButton: 34105a012678222f058f8d2621672724a3d5c9fb
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   Shuffle-iOS: d1b64066af844e075e97619f80cda10b9c0a04b0
 
-PODFILE CHECKSUM: ea0f8dfdb06c62a8b31248de8e686225dab7e752
+PODFILE CHECKSUM: f640d1b4b08596736ad88fa9cc1cc68b657649a2
 
 COCOAPODS: 1.8.4

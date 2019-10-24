@@ -12,6 +12,7 @@ target 'Limelight' do
   pod 'Shuffle-iOS'
   pod 'PopBounceButton'
   pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git', :branch => 'master'
+  pod 'PolioPager'
 
 
 end

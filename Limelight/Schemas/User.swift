@@ -40,5 +40,5 @@ struct User {
                                TWITTER: 0,
                                INSTAGRAM: 0,
                                LIMELIGHT: 0]
-    static var comments = [] 
+    static var comments = [Comment]()
 }
