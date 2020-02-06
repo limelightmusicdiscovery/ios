@@ -5,7 +5,6 @@
 //  Created by Mac Gallagher on 5/25/18.
 //  Copyright © 2018 Mac Gallagher. All rights reserved.
 //
-// swiftlint:disable vertical_whitespace line_length unused_closure_parameter identifier_name
 
 import UIKit
 

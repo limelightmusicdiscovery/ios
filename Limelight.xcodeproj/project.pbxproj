@@ -3,77 +3,238 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F03230623D2C0ED00587B19 /* TopChartsSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03230523D2C0ED00587B19 /* TopChartsSegmentViewController.swift */; };
+		4F03230923D2DBDA00587B19 /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03230823D2DBDA00587B19 /* ArtistCell.swift */; };
+		4F03230B23D2DC2800587B19 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03230A23D2DC2800587B19 /* Artist.swift */; };
+		4F03230D23D2EF2600587B19 /* TopArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03230C23D2EF2600587B19 /* TopArtistsTableViewController.swift */; };
+		4F03230F23D2EF5500587B19 /* TopsTracksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03230E23D2EF5500587B19 /* TopsTracksTableViewController.swift */; };
+		4F03231123D2F30200587B19 /* ArtistTopChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03231023D2F30200587B19 /* ArtistTopChartsViewController.swift */; };
+		4F07A2A6237FB97D0060138E /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07A2A5237FB97D0060138E /* AudioController.swift */; };
+		4F09B0E52376306B00A460F2 /* DiscoverCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F09B0E42376306B00A460F2 /* DiscoverCardCell.xib */; };
+		4F09B0E7237630C600A460F2 /* DiscoverCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B0E6237630C600A460F2 /* DiscoverCardCell.swift */; };
+		4F0D113823D7917700322F31 /* ArtistPayWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D113723D7917700322F31 /* ArtistPayWall.swift */; };
+		4F0D113B23D81B0000322F31 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D113A23D81B0000322F31 /* FirebaseManager.swift */; };
+		4F0D114023D8665E00322F31 /* SearchRadiusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D113F23D8665E00322F31 /* SearchRadiusTableViewController.swift */; };
+		4F0D114223D8677600322F31 /* SearchRadiusContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D114123D8677600322F31 /* SearchRadiusContainerViewController.swift */; };
+		4F0DB9C123909B7B0072EE81 /* SignUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB9C023909B7B0072EE81 /* SignUp2ViewController.swift */; };
+		4F0DB9C423909DB70072EE81 /* ChooseGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB9C323909DB70072EE81 /* ChooseGenresViewController.swift */; };
+		4F0DB9C62390ADB20072EE81 /* IsArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB9C52390ADB20072EE81 /* IsArtistViewController.swift */; };
+		4F0DB9C82390AE1A0072EE81 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB9C72390AE1A0072EE81 /* Helper.swift */; };
+		4F0DB9CA2390AF040072EE81 /* ArtistPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DB9C92390AF040072EE81 /* ArtistPlansViewController.swift */; };
+		4F0DB9F32390C8F10072EE81 /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9F22390C8F10072EE81 /* Poppins-Black.otf */; };
+		4F0DB9F52390C91F0072EE81 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9F42390C91F0072EE81 /* Poppins-Bold.otf */; };
+		4F0DB9F72390C9370072EE81 /* Poppins-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9F62390C9370072EE81 /* Poppins-ExtraBold.otf */; };
+		4F0DB9F92390C9440072EE81 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9F82390C9440072EE81 /* Poppins-Regular.otf */; };
+		4F0DB9FB2390C94D0072EE81 /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9FA2390C94D0072EE81 /* Poppins-SemiBold.otf */; };
+		4F0DB9FD2390C9F00072EE81 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DB9FC2390C9F00072EE81 /* Poppins-Medium.otf */; };
+		4F12EDB423C0A28B00E19B85 /* LNPopupController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F12EDB323C0A28100E19B85 /* LNPopupController.framework */; };
+		4F12EDB523C0A28B00E19B85 /* LNPopupController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F12EDB323C0A28100E19B85 /* LNPopupController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F12EDB823C5200400E19B85 /* TopChartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12EDB723C5200400E19B85 /* TopChartsTableViewController.swift */; };
+		4F12EDBB23C5236F00E19B85 /* TopChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12EDBA23C5236F00E19B85 /* TopChartCell.swift */; };
 		4F1CC807235B8D5E00306F54 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC806235B8D5E00306F54 /* Structures.swift */; };
 		4F1CC80A235B92F800306F54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC809235B92F800306F54 /* Constants.swift */; };
 		4F1CC80C235B9C3700306F54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */; };
 		4F1CC80E235BA21800306F54 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC80D235BA21800306F54 /* SignInViewController.swift */; };
 		4F1CC810235BA22900306F54 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CC80F235BA22900306F54 /* SignUpViewController.swift */; };
+		4F1CDFCF2394E169004742CC /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CDFCE2394E169004742CC /* TrackCollectionViewCell.swift */; };
+		4F1CDFD223950189004742CC /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CDFD123950189004742CC /* SideMenuViewController.swift */; };
+		4F2BAEAA2391DFA700C7341E /* TinderButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BAEA92391DFA700C7341E /* TinderButton2.swift */; };
+		4F2BAEAE239234D000C7341E /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BAEAD239234D000C7341E /* UserLocationViewController.swift */; };
+		4F2BAEB423931BD000C7341E /* TopChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BAEB323931BD000C7341E /* TopChartsViewController.swift */; };
+		4F2BAEB72393271300C7341E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BAEB62393271300C7341E /* UserProfileViewController.swift */; };
+		4F321FCE23DE18300007FFBF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F321FCD23DE18300007FFBF /* Friend.swift */; };
+		4F321FDF23DEDA580007FFBF /* ContainerUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F321FDE23DEDA580007FFBF /* ContainerUploadViewController.swift */; };
+		4F321FE123DEE1A80007FFBF /* CardCellPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F321FE023DEE1A80007FFBF /* CardCellPopUp.xib */; };
+		4F321FE423DEE1EA0007FFBF /* DiscoverCardPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F321FE223DEE1EA0007FFBF /* DiscoverCardPopUp.swift */; };
+		4F321FE523DEE1EA0007FFBF /* DiscoverCardPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F321FE323DEE1EA0007FFBF /* DiscoverCardPopUp.xib */; };
 		4F458F7D235C060600933EB6 /* ButtonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F7C235C060600933EB6 /* ButtonStackView.swift */; };
 		4F458F7F235C064100933EB6 /* TinderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F7E235C064100933EB6 /* TinderButton.swift */; };
-		4F458F8B235C08A400933EB6 /* TrackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8A235C08A400933EB6 /* TrackCard.swift */; };
 		4F458F8D235C094000933EB6 /* TrackCardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */; };
 		4F458F8F235C09E400933EB6 /* TrackCardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */; };
 		4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */; };
+		4F507248236286E800A9AFEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F507247236286E800A9AFEC /* Extensions.swift */; };
+		4F5B35F823AD2DC100D5C0E9 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B35F723AD2DC100D5C0E9 /* CommentCell.swift */; };
+		4F5B35FC23AD362100D5C0E9 /* UserCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B35FB23AD362100D5C0E9 /* UserCommentsViewController.swift */; };
+		4F5B35FE23ADAD1C00D5C0E9 /* UserFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B35FD23ADAD1C00D5C0E9 /* UserFollowersViewController.swift */; };
+		4F5B360023ADAE1400D5C0E9 /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B35FF23ADAE1400D5C0E9 /* FollowersViewController.swift */; };
+		4F5B360223ADAE6300D5C0E9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B360123ADAE6300D5C0E9 /* UserCell.swift */; };
+		4F5B360423ADAEBA00D5C0E9 /* LimelightUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B360323ADAEBA00D5C0E9 /* LimelightUser.swift */; };
+		4F5BD5CF238AD340002CA7BC /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BD5CE238AD340002CA7BC /* MusicPlayerViewController.swift */; };
+		4F5BD5D3238B24D6002CA7BC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BD5D2238B24D6002CA7BC /* MainTabBarController.swift */; };
+		4F5C087723A2B6E500343AAC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C087623A2B6E500343AAC /* StoreKit.framework */; };
+		4F62EE8D23CCC659005E4F4C /* TrackOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F62EE8C23CCC659005E4F4C /* TrackOptionsTableViewController.swift */; };
+		4F69DD5123C8265B00252BD1 /* UploadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69DD5023C8265B00252BD1 /* UploadTableViewController.swift */; };
+		4F69DD5423C951C400252BD1 /* TrackOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69DD5323C951C400252BD1 /* TrackOptionsViewController.swift */; };
+		4F69DD5923C9C76100252BD1 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69DD5823C9C76100252BD1 /* EditProfileViewController.swift */; };
+		4F6C80BD23E25710005F5025 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C80BC23E25710005F5025 /* System.swift */; };
+		4F861E5923D076B300574937 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F861E5823D076B300574937 /* FollowingViewController.swift */; };
+		4F8AC71823DF65CD0052F933 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AC71723DF65CD0052F933 /* PushNotificationManager.swift */; };
+		4F8AC71A23DF71ED0052F933 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AC71923DF71ED0052F933 /* PushNotificationSender.swift */; };
+		4F8AC71C23E1257B0052F933 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AC71B23E1257B0052F933 /* NotificationCenter.swift */; };
+		4F8C504C23B3934C00CA25E1 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8C504B23B3934C00CA25E1 /* Subscription.swift */; };
 		4F9DD918235A99F400DCA4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD917235A99F400DCA4AC /* AppDelegate.swift */; };
 		4F9DD91A235A99F400DCA4AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */; };
-		4F9DD91C235A99F400DCA4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD91B235A99F400DCA4AC /* ViewController.swift */; };
 		4F9DD91F235A99F400DCA4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD91D235A99F400DCA4AC /* Main.storyboard */; };
 		4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */; };
 		4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD923235A99F500DCA4AC /* Assets.xcassets */; };
 		4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9DD925235A99F500DCA4AC /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
 		4FB66B7223625F04009C6E3E /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB66B7123625F04009C6E3E /* LibraryViewController.swift */; };
+		4FB6F5CE23B300AC00532AA2 /* TrackCommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB6F5CD23B300AC00532AA2 /* TrackCommentsTableViewController.swift */; };
+		4FB6F5D123B3019100532AA2 /* TrackCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB6F5D023B3019100532AA2 /* TrackCommentsViewController.swift */; };
+		4FC9E99523D50B6300ECE847 /* ContainerUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9E99423D50B6300ECE847 /* ContainerUserProfileViewController.swift */; };
+		4FC9E99923D579BD00ECE847 /* RoundedShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9E99823D579BD00ECE847 /* RoundedShadow.swift */; };
 		4FCFFF0D235FB4F7006738C5 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFFF0C235FB4F7006738C5 /* DiscoverViewController.swift */; };
 		4FE7DDD3235E3B60005210AA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD0235E3B60005210AA /* Track.swift */; };
 		4FE7DDD4235E3B60005210AA /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD1235E3B60005210AA /* Comment.swift */; };
 		4FE7DDD5235E3B60005210AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7DDD2235E3B60005210AA /* User.swift */; };
-		6946E638D9347A668EBB0E04 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */; };
-=======
-		C4C8A158235D3EA200CA103E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A157235D3EA200CA103E /* User.swift */; };
-		C4C8A15A235D3ED100CA103E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A159235D3ED100CA103E /* Track.swift */; };
-		C4C8A15C235D3FFF00CA103E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A15B235D3FFF00CA103E /* Utils.swift */; };
-		C4C8A160235D668B00CA103E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8A15F235D668B00CA103E /* Comment.swift */; };
-		E39EAF865F498EF8FA3068F4 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */; };
->>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
+		4FF3510F23EA7AED001A4F20 /* ReportProblemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3510E23EA7AED001A4F20 /* ReportProblemTableViewController.swift */; };
+		4FF3511123EA8182001A4F20 /* ContainerReportProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3511023EA8182001A4F20 /* ContainerReportProblemViewController.swift */; };
+		4FF53DA223E4ED5A00C7534F /* AnalyticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DA123E4ED5A00C7534F /* AnalyticsTableViewController.swift */; };
+		4FF53DA423E4EF0300C7534F /* ContainerAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DA323E4EF0300C7534F /* ContainerAnalyticsViewController.swift */; };
+		4FF53DA923E520E800C7534F /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DA823E520E800C7534F /* Stream.swift */; };
+		4FF53DAC23E5494B00C7534F /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 4FF53DAB23E5494B00C7534F /* SwiftUICharts */; };
+		4FF53DB223E6B2B100C7534F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DB123E6B2B100C7534F /* SearchTableViewController.swift */; };
+		4FF53DB523E6E17800C7534F /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DB423E6E17800C7534F /* TableViewHelper.swift */; };
+		4FF53DB823E7802700C7534F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DB723E7802600C7534F /* SearchViewController.swift */; };
+		4FF53DBB23E7826100C7534F /* ContainerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF53DBA23E7826100C7534F /* ContainerSearchViewController.swift */; };
+		4FFCD559237776E20010B8AA /* LikedTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCD558237776E20010B8AA /* LikedTracksViewController.swift */; };
+		4FFCD55B237782D40010B8AA /* LibraryTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCD55A237782D40010B8AA /* LibraryTracksViewController.swift */; };
+		4FFCD55D23778AB50010B8AA /* DislikedTracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCD55C23778AB50010B8AA /* DislikedTracksViewController.swift */; };
+		4FFCD55F23778E030010B8AA /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCD55E23778E030010B8AA /* TrackCell.swift */; };
+		A313D5B6D021DB711B56C8A8 /* Pods_Limelight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5947AA918A377ED64E7F39E /* Pods_Limelight.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4F12EDB223C0A28100E19B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F12EDAE23C0A28100E19B85 /* LNPopupController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39DB52E51B5823330061C589;
+			remoteInfo = LNPopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F12EDB623C0A28B00E19B85 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F12EDB523C0A28B00E19B85 /* LNPopupController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4F03230523D2C0ED00587B19 /* TopChartsSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartsSegmentViewController.swift; sourceTree = "<group>"; };
+		4F03230823D2DBDA00587B19 /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		4F03230A23D2DC2800587B19 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4F03230C23D2EF2600587B19 /* TopArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsTableViewController.swift; sourceTree = "<group>"; };
+		4F03230E23D2EF5500587B19 /* TopsTracksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopsTracksTableViewController.swift; sourceTree = "<group>"; };
+		4F03231023D2F30200587B19 /* ArtistTopChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTopChartsViewController.swift; sourceTree = "<group>"; };
+		4F07A2A5237FB97D0060138E /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		4F09B0E42376306B00A460F2 /* DiscoverCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCardCell.xib; sourceTree = "<group>"; };
+		4F09B0E6237630C600A460F2 /* DiscoverCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCardCell.swift; sourceTree = "<group>"; };
+		4F0D113723D7917700322F31 /* ArtistPayWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPayWall.swift; sourceTree = "<group>"; };
+		4F0D113A23D81B0000322F31 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		4F0D113F23D8665E00322F31 /* SearchRadiusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRadiusTableViewController.swift; sourceTree = "<group>"; };
+		4F0D114123D8677600322F31 /* SearchRadiusContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRadiusContainerViewController.swift; sourceTree = "<group>"; };
+		4F0DB9C023909B7B0072EE81 /* SignUp2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2ViewController.swift; sourceTree = "<group>"; };
+		4F0DB9C323909DB70072EE81 /* ChooseGenresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGenresViewController.swift; sourceTree = "<group>"; };
+		4F0DB9C52390ADB20072EE81 /* IsArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsArtistViewController.swift; sourceTree = "<group>"; };
+		4F0DB9C72390AE1A0072EE81 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4F0DB9C92390AF040072EE81 /* ArtistPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPlansViewController.swift; sourceTree = "<group>"; };
+		4F0DB9F22390C8F10072EE81 /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
+		4F0DB9F42390C91F0072EE81 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		4F0DB9F62390C9370072EE81 /* Poppins-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.otf"; sourceTree = "<group>"; };
+		4F0DB9F82390C9440072EE81 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		4F0DB9FA2390C94D0072EE81 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		4F0DB9FC2390C9F00072EE81 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		4F12EDAE23C0A28100E19B85 /* LNPopupController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LNPopupController.xcodeproj; path = "../../../Downloads/LNPopupController-master/LNPopupController/LNPopupController.xcodeproj"; sourceTree = "<group>"; };
+		4F12EDB723C5200400E19B85 /* TopChartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartsTableViewController.swift; sourceTree = "<group>"; };
+		4F12EDBA23C5236F00E19B85 /* TopChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartCell.swift; sourceTree = "<group>"; };
 		4F1CC806235B8D5E00306F54 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		4F1CC809235B92F800306F54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F1CC80D235BA21800306F54 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4F1CC80F235BA22900306F54 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4F1CDFCE2394E169004742CC /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F1CDFD123950189004742CC /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4F2BAEA92391DFA700C7341E /* TinderButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderButton2.swift; sourceTree = "<group>"; };
+		4F2BAEAD239234D000C7341E /* UserLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
+		4F2BAEB323931BD000C7341E /* TopChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartsViewController.swift; sourceTree = "<group>"; };
+		4F2BAEB62393271300C7341E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		4F321FCD23DE18300007FFBF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		4F321FDE23DEDA580007FFBF /* ContainerUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerUploadViewController.swift; sourceTree = "<group>"; };
+		4F321FE023DEE1A80007FFBF /* CardCellPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCellPopUp.xib; sourceTree = "<group>"; };
+		4F321FE223DEE1EA0007FFBF /* DiscoverCardPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCardPopUp.swift; sourceTree = "<group>"; };
+		4F321FE323DEE1EA0007FFBF /* DiscoverCardPopUp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverCardPopUp.xib; sourceTree = "<group>"; };
 		4F458F7C235C060600933EB6 /* ButtonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStackView.swift; sourceTree = "<group>"; };
 		4F458F7E235C064100933EB6 /* TinderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderButton.swift; sourceTree = "<group>"; };
-		4F458F8A235C08A400933EB6 /* TrackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCard.swift; sourceTree = "<group>"; };
 		4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardOverlay.swift; sourceTree = "<group>"; };
 		4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardContentView.swift; sourceTree = "<group>"; };
 		4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCardFooterView.swift; sourceTree = "<group>"; };
-		4F9DD914235A99F400DCA4AC /* Limelight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limelight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F507247236286E800A9AFEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4F5B35F723AD2DC100D5C0E9 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		4F5B35FB23AD362100D5C0E9 /* UserCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCommentsViewController.swift; sourceTree = "<group>"; };
+		4F5B35FD23ADAD1C00D5C0E9 /* UserFollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowersViewController.swift; sourceTree = "<group>"; };
+		4F5B35FF23ADAE1400D5C0E9 /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		4F5B360123ADAE6300D5C0E9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4F5B360323ADAEBA00D5C0E9 /* LimelightUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimelightUser.swift; sourceTree = "<group>"; };
+		4F5BD5CE238AD340002CA7BC /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		4F5BD5D2238B24D6002CA7BC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4F5C087623A2B6E500343AAC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4F62EE8C23CCC659005E4F4C /* TrackOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOptionsTableViewController.swift; sourceTree = "<group>"; };
+		4F69DD5023C8265B00252BD1 /* UploadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTableViewController.swift; sourceTree = "<group>"; };
+		4F69DD5323C951C400252BD1 /* TrackOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOptionsViewController.swift; sourceTree = "<group>"; };
+		4F69DD5823C9C76100252BD1 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4F6C80BC23E25710005F5025 /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		4F861E5823D076B300574937 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		4F8AC71523DF65780052F933 /* Limelight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Limelight.entitlements; sourceTree = "<group>"; };
+		4F8AC71723DF65CD0052F933 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		4F8AC71923DF71ED0052F933 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		4F8AC71B23E1257B0052F933 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		4F8C504B23B3934C00CA25E1 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		4F9DD914235A99F400DCA4AC /* Limelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9DD917235A99F400DCA4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F9DD91B235A99F400DCA4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F9DD91E235A99F400DCA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F9DD921235A99F400DCA4AC /* Limelight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Limelight.xcdatamodel; sourceTree = "<group>"; };
 		4F9DD923235A99F500DCA4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9DD926235A99F500DCA4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F9DD928235A99F500DCA4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB66B7123625F04009C6E3E /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		4FB6F5CD23B300AC00532AA2 /* TrackCommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCommentsTableViewController.swift; sourceTree = "<group>"; };
+		4FB6F5D023B3019100532AA2 /* TrackCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCommentsViewController.swift; sourceTree = "<group>"; };
+		4FC9E99423D50B6300ECE847 /* ContainerUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerUserProfileViewController.swift; sourceTree = "<group>"; };
+		4FC9E99823D579BD00ECE847 /* RoundedShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadow.swift; sourceTree = "<group>"; };
 		4FCFFF0C235FB4F7006738C5 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		4FE7DDD0235E3B60005210AA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		4FE7DDD1235E3B60005210AA /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		4FE7DDD2235E3B60005210AA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
-		BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
-		642150A7C4C6F6D8F9A767AB /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4C8A157235D3EA200CA103E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C4C8A159235D3ED100CA103E /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
-		C4C8A15B235D3FFF00CA103E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		C4C8A15F235D668B00CA103E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		4FF3510E23EA7AED001A4F20 /* ReportProblemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemTableViewController.swift; sourceTree = "<group>"; };
+		4FF3511023EA8182001A4F20 /* ContainerReportProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerReportProblemViewController.swift; sourceTree = "<group>"; };
+		4FF53DA123E4ED5A00C7534F /* AnalyticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTableViewController.swift; sourceTree = "<group>"; };
+		4FF53DA323E4EF0300C7534F /* ContainerAnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerAnalyticsViewController.swift; sourceTree = "<group>"; };
+		4FF53DA823E520E800C7534F /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		4FF53DB123E6B2B100C7534F /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		4FF53DB423E6E17800C7534F /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		4FF53DB723E7802600C7534F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4FF53DBA23E7826100C7534F /* ContainerSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSearchViewController.swift; sourceTree = "<group>"; };
+		4FFCD558237776E20010B8AA /* LikedTracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedTracksViewController.swift; sourceTree = "<group>"; };
+		4FFCD55A237782D40010B8AA /* LibraryTracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTracksViewController.swift; sourceTree = "<group>"; };
+		4FFCD55C23778AB50010B8AA /* DislikedTracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DislikedTracksViewController.swift; sourceTree = "<group>"; };
+		4FFCD55E23778E030010B8AA /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		8D0792E92D58C66A69FC4AE4 /* Pods-Limelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.debug.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.debug.xcconfig"; sourceTree = "<group>"; };
+		E411BE8F89BAE8104FB9CA4B /* Pods-Limelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limelight.release.xcconfig"; path = "Target Support Files/Pods-Limelight/Pods-Limelight.release.xcconfig"; sourceTree = "<group>"; };
+		E5947AA918A377ED64E7F39E /* Pods_Limelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,36 +242,137 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6946E638D9347A668EBB0E04 /* Pods_Limelight.framework in Frameworks */,
+				4F5C087723A2B6E500343AAC /* StoreKit.framework in Frameworks */,
+				4FF53DAC23E5494B00C7534F /* SwiftUICharts in Frameworks */,
+				A313D5B6D021DB711B56C8A8 /* Pods_Limelight.framework in Frameworks */,
+				4F12EDB423C0A28B00E19B85 /* LNPopupController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369912FAC830DCA1E633C623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5C087623A2B6E500343AAC /* StoreKit.framework */,
+				E5947AA918A377ED64E7F39E /* Pods_Limelight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F07A2A2237FB8D10060138E /* TrackCard */ = {
+			isa = PBXGroup;
+			children = (
+				4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */,
+				4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */,
+				4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */,
+				4F458F7C235C060600933EB6 /* ButtonStackView.swift */,
+				4F458F7E235C064100933EB6 /* TinderButton.swift */,
+				4F2BAEA92391DFA700C7341E /* TinderButton2.swift */,
+			);
+			path = TrackCard;
+			sourceTree = "<group>";
+		};
+		4F07A2A4237FB9110060138E /* DiscoverCardCell */ = {
+			isa = PBXGroup;
+			children = (
+				4F09B0E42376306B00A460F2 /* DiscoverCardCell.xib */,
+				4F09B0E6237630C600A460F2 /* DiscoverCardCell.swift */,
+				4F321FE223DEE1EA0007FFBF /* DiscoverCardPopUp.swift */,
+				4F321FE323DEE1EA0007FFBF /* DiscoverCardPopUp.xib */,
+				4F321FE023DEE1A80007FFBF /* CardCellPopUp.xib */,
+			);
+			path = DiscoverCardCell;
+			sourceTree = "<group>";
+		};
+		4F0DB9CC2390C8040072EE81 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4F0DB9FC2390C9F00072EE81 /* Poppins-Medium.otf */,
+				4F0DB9FA2390C94D0072EE81 /* Poppins-SemiBold.otf */,
+				4F0DB9F82390C9440072EE81 /* Poppins-Regular.otf */,
+				4F0DB9F62390C9370072EE81 /* Poppins-ExtraBold.otf */,
+				4F0DB9F42390C91F0072EE81 /* Poppins-Bold.otf */,
+				4F0DB9F22390C8F10072EE81 /* Poppins-Black.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4F12EDAF23C0A28100E19B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F12EDB323C0A28100E19B85 /* LNPopupController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F12EDB923C5200A00E19B85 /* TopCharts */ = {
+			isa = PBXGroup;
+			children = (
+				4F2BAEB323931BD000C7341E /* TopChartsViewController.swift */,
+				4F03231023D2F30200587B19 /* ArtistTopChartsViewController.swift */,
+				4F12EDB723C5200400E19B85 /* TopChartsTableViewController.swift */,
+				4F03230C23D2EF2600587B19 /* TopArtistsTableViewController.swift */,
+				4F03230E23D2EF5500587B19 /* TopsTracksTableViewController.swift */,
+				4F12EDBA23C5236F00E19B85 /* TopChartCell.swift */,
+				4F03230523D2C0ED00587B19 /* TopChartsSegmentViewController.swift */,
+			);
+			path = TopCharts;
+			sourceTree = "<group>";
+		};
 		4F1CC811235BA23300306F54 /* SignInSignUp */ = {
 			isa = PBXGroup;
 			children = (
 				4F1CC80D235BA21800306F54 /* SignInViewController.swift */,
 				4F1CC80F235BA22900306F54 /* SignUpViewController.swift */,
+				4F0DB9C023909B7B0072EE81 /* SignUp2ViewController.swift */,
+				4F0DB9C323909DB70072EE81 /* ChooseGenresViewController.swift */,
+				4F0DB9C52390ADB20072EE81 /* IsArtistViewController.swift */,
+				4F0DB9C92390AF040072EE81 /* ArtistPlansViewController.swift */,
 			);
 			path = SignInSignUp;
+			sourceTree = "<group>";
+		};
+		4F2BAEB123931BB500C7341E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4FB66B7123625F04009C6E3E /* LibraryViewController.swift */,
+				4FFCD558237776E20010B8AA /* LikedTracksViewController.swift */,
+				4FFCD55C23778AB50010B8AA /* DislikedTracksViewController.swift */,
+				4FFCD55A237782D40010B8AA /* LibraryTracksViewController.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4F69DD5723C9C73F00252BD1 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				4F2BAEB62393271300C7341E /* UserProfileViewController.swift */,
+				4F5B35FD23ADAD1C00D5C0E9 /* UserFollowersViewController.swift */,
+				4F5B35FF23ADAE1400D5C0E9 /* FollowersViewController.swift */,
+				4F861E5823D076B300574937 /* FollowingViewController.swift */,
+				4F69DD5823C9C76100252BD1 /* EditProfileViewController.swift */,
+				4FC9E99423D50B6300ECE847 /* ContainerUserProfileViewController.swift */,
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 		4F9DD90B235A99F400DCA4AC = {
 			isa = PBXGroup;
 			children = (
+				4F12EDAE23C0A28100E19B85 /* LNPopupController.xcodeproj */,
 				4F9DD916235A99F400DCA4AC /* Limelight */,
 				4F9DD915235A99F400DCA4AC /* Products */,
 				BB9CA1FCDEA63D79AC3AD3EF /* Pods */,
-				794CC82E41B0595E5BC01A06 /* Frameworks */,
+				369912FAC830DCA1E633C623 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4F9DD915235A99F400DCA4AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F9DD914235A99F400DCA4AC /* Limelight2.app */,
+				4F9DD914235A99F400DCA4AC /* Limelight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,24 +380,46 @@
 		4F9DD916235A99F400DCA4AC /* Limelight */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
+				4F8AC71523DF65780052F933 /* Limelight.entitlements */,
 				4FE7DDCF235E3B60005210AA /* Schemas */,
-=======
-				C4C8A15E235D561100CA103E /* Schemas */,
->>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
 				4F9DD917235A99F400DCA4AC /* AppDelegate.swift */,
 				4F9DD919235A99F400DCA4AC /* SceneDelegate.swift */,
-				4F9DD91B235A99F400DCA4AC /* ViewController.swift */,
-				4F458F8A235C08A400933EB6 /* TrackCard.swift */,
-				4F458F8C235C094000933EB6 /* TrackCardOverlay.swift */,
-				4F458F8E235C09E400933EB6 /* TrackCardContentView.swift */,
-				4F458F90235C0A1E00933EB6 /* TrackCardFooterView.swift */,
-				4F458F7C235C060600933EB6 /* ButtonStackView.swift */,
-				4F458F7E235C064100933EB6 /* TinderButton.swift */,
-				4F1CC806235B8D5E00306F54 /* Structures.swift */,
-				4F1CC809235B92F800306F54 /* Constants.swift */,
+				4F07A2A5237FB97D0060138E /* AudioController.swift */,
+				4F5BD5CE238AD340002CA7BC /* MusicPlayerViewController.swift */,
+				4F5BD5D2238B24D6002CA7BC /* MainTabBarController.swift */,
+				4F2BAEAD239234D000C7341E /* UserLocationViewController.swift */,
+				4F0D113723D7917700322F31 /* ArtistPayWall.swift */,
+				4F8AC71723DF65CD0052F933 /* PushNotificationManager.swift */,
+				4F8AC71923DF71ED0052F933 /* PushNotificationSender.swift */,
+				4FF53DA123E4ED5A00C7534F /* AnalyticsTableViewController.swift */,
+				4FF53DA323E4EF0300C7534F /* ContainerAnalyticsViewController.swift */,
+				4FF53DB123E6B2B100C7534F /* SearchTableViewController.swift */,
+				4FF53DB723E7802600C7534F /* SearchViewController.swift */,
+				4FF53DBA23E7826100C7534F /* ContainerSearchViewController.swift */,
+				4FF53DB423E6E17800C7534F /* TableViewHelper.swift */,
+				4FF3510E23EA7AED001A4F20 /* ReportProblemTableViewController.swift */,
+				4FF3511023EA8182001A4F20 /* ContainerReportProblemViewController.swift */,
+				4F07A2A2237FB8D10060138E /* TrackCard */,
 				4FCFFF0C235FB4F7006738C5 /* DiscoverViewController.swift */,
-				4FB66B7123625F04009C6E3E /* LibraryViewController.swift */,
+				4F2BAEB123931BB500C7341E /* Library */,
+				4FFCD55E23778E030010B8AA /* TrackCell.swift */,
+				4F5B35F723AD2DC100D5C0E9 /* CommentCell.swift */,
+				4F5B360123ADAE6300D5C0E9 /* UserCell.swift */,
+				4F03230823D2DBDA00587B19 /* ArtistCell.swift */,
+				4FF3511323EA8F19001A4F20 /* TrackOptions */,
+				4F0D113F23D8665E00322F31 /* SearchRadiusTableViewController.swift */,
+				4F0D114123D8677600322F31 /* SearchRadiusContainerViewController.swift */,
+				4F5B35FB23AD362100D5C0E9 /* UserCommentsViewController.swift */,
+				4FB6F5D223B3019900532AA2 /* TrackComments */,
+				4F12EDB923C5200A00E19B85 /* TopCharts */,
+				4F69DD5723C9C73F00252BD1 /* UserProfile */,
+				4F1CDFCE2394E169004742CC /* TrackCollectionViewCell.swift */,
+				4F1CDFD123950189004742CC /* SideMenuViewController.swift */,
+				4F69DD5023C8265B00252BD1 /* UploadTableViewController.swift */,
+				4F321FDE23DEDA580007FFBF /* ContainerUploadViewController.swift */,
+				4FC9E99823D579BD00ECE847 /* RoundedShadow.swift */,
+				4F0DB9CC2390C8040072EE81 /* Fonts */,
+				4F07A2A4237FB9110060138E /* DiscoverCardCell */,
 				4F1CC811235BA23300306F54 /* SignInSignUp */,
 				4F9DD91D235A99F400DCA4AC /* Main.storyboard */,
 				4F9DD923235A99F500DCA4AC /* Assets.xcassets */,
@@ -143,46 +427,57 @@
 				4F9DD928235A99F500DCA4AC /* Info.plist */,
 				4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */,
 				4F1CC80B235B9C3700306F54 /* GoogleService-Info.plist */,
-				C4C8A15B235D3FFF00CA103E /* Utils.swift */,
 			);
 			path = Limelight;
+			sourceTree = "<group>";
+		};
+		4FB6F5D223B3019900532AA2 /* TrackComments */ = {
+			isa = PBXGroup;
+			children = (
+				4FB6F5CD23B300AC00532AA2 /* TrackCommentsTableViewController.swift */,
+				4FB6F5D023B3019100532AA2 /* TrackCommentsViewController.swift */,
+			);
+			path = TrackComments;
 			sourceTree = "<group>";
 		};
 		4FE7DDCF235E3B60005210AA /* Schemas */ = {
 			isa = PBXGroup;
 			children = (
+				4F0D113A23D81B0000322F31 /* FirebaseManager.swift */,
 				4FE7DDD0235E3B60005210AA /* Track.swift */,
 				4FE7DDD1235E3B60005210AA /* Comment.swift */,
+				4F03230A23D2DC2800587B19 /* Artist.swift */,
+				4FF53DA823E520E800C7534F /* Stream.swift */,
 				4FE7DDD2235E3B60005210AA /* User.swift */,
+				4F6C80BC23E25710005F5025 /* System.swift */,
+				4F321FCD23DE18300007FFBF /* Friend.swift */,
+				4F5B360323ADAEBA00D5C0E9 /* LimelightUser.swift */,
+				4F1CC806235B8D5E00306F54 /* Structures.swift */,
+				4F1CC809235B92F800306F54 /* Constants.swift */,
+				4F507247236286E800A9AFEC /* Extensions.swift */,
+				4F0DB9C72390AE1A0072EE81 /* Helper.swift */,
+				4F8C504B23B3934C00CA25E1 /* Subscription.swift */,
+				4F8AC71B23E1257B0052F933 /* NotificationCenter.swift */,
 			);
 			path = Schemas;
 			sourceTree = "<group>";
 		};
-		794CC82E41B0595E5BC01A06 /* Frameworks */ = {
+		4FF3511323EA8F19001A4F20 /* TrackOptions */ = {
 			isa = PBXGroup;
 			children = (
-				F2637C7CF5FA264BA6A13CDE /* Pods_Limelight.framework */,
+				4F69DD5323C951C400252BD1 /* TrackOptionsViewController.swift */,
+				4F62EE8C23CCC659005E4F4C /* TrackOptionsTableViewController.swift */,
 			);
-			name = Frameworks;
+			path = TrackOptions;
 			sourceTree = "<group>";
 		};
 		BB9CA1FCDEA63D79AC3AD3EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */,
-				6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */,
+				8D0792E92D58C66A69FC4AE4 /* Pods-Limelight.debug.xcconfig */,
+				E411BE8F89BAE8104FB9CA4B /* Pods-Limelight.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C4C8A15E235D561100CA103E /* Schemas */ = {
-			isa = PBXGroup;
-			children = (
-				C4C8A157235D3EA200CA103E /* User.swift */,
-				C4C8A159235D3ED100CA103E /* Track.swift */,
-				C4C8A15F235D668B00CA103E /* Comment.swift */,
-			);
-			path = Schemas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,19 +487,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9DD92B235A99F500DCA4AC /* Build configuration list for PBXNativeTarget "Limelight" */;
 			buildPhases = (
-				C63B2AD25424445F1840CC19 /* [CP] Check Pods Manifest.lock */,
+				F5BE6C3E83E7DF9DF1C13920 /* [CP] Check Pods Manifest.lock */,
 				4F9DD910235A99F400DCA4AC /* Sources */,
 				4F9DD911235A99F400DCA4AC /* Frameworks */,
 				4F9DD912235A99F400DCA4AC /* Resources */,
-				32E0DB585CDE68D92AFE06A4 /* [CP] Embed Pods Frameworks */,
+				D6107B0FA3348886484B8330 /* [CP] Embed Pods Frameworks */,
+				4F12EDB623C0A28B00E19B85 /* Embed Frameworks */,
+				4F0D114323D875E300322F31 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Limelight;
+			packageProductDependencies = (
+				4FF53DAB23E5494B00C7534F /* SwiftUICharts */,
+			);
 			productName = Limelight;
-			productReference = 4F9DD914235A99F400DCA4AC /* Limelight2.app */;
+			productReference = 4F9DD914235A99F400DCA4AC /* Limelight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -231,8 +531,17 @@
 				Base,
 			);
 			mainGroup = 4F9DD90B235A99F400DCA4AC;
+			packageReferences = (
+				4FF53DAA23E5494B00C7534F /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 4F9DD915235A99F400DCA4AC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F12EDAF23C0A28100E19B85 /* Products */;
+					ProjectRef = 4F12EDAE23C0A28100E19B85 /* LNPopupController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F9DD913235A99F400DCA4AC /* Limelight */,
@@ -240,14 +549,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4F12EDB323C0A28100E19B85 /* LNPopupController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LNPopupController.framework;
+			remoteRef = 4F12EDB223C0A28100E19B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4F9DD912235A99F400DCA4AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F321FE123DEE1A80007FFBF /* CardCellPopUp.xib in Resources */,
 				4F9DD927235A99F500DCA4AC /* LaunchScreen.storyboard in Resources */,
+				4F0DB9F72390C9370072EE81 /* Poppins-ExtraBold.otf in Resources */,
+				4F0DB9F32390C8F10072EE81 /* Poppins-Black.otf in Resources */,
+				4F0DB9F92390C9440072EE81 /* Poppins-Regular.otf in Resources */,
 				4F1CC80C235B9C3700306F54 /* GoogleService-Info.plist in Resources */,
 				4F9DD924235A99F500DCA4AC /* Assets.xcassets in Resources */,
+				4F0DB9FB2390C94D0072EE81 /* Poppins-SemiBold.otf in Resources */,
+				4F0DB9FD2390C9F00072EE81 /* Poppins-Medium.otf in Resources */,
+				4F09B0E52376306B00A460F2 /* DiscoverCardCell.xib in Resources */,
+				4F321FE523DEE1EA0007FFBF /* DiscoverCardPopUp.xib in Resources */,
+				4F0DB9F52390C91F0072EE81 /* Poppins-Bold.otf in Resources */,
 				4F9DD91F235A99F400DCA4AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +583,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32E0DB585CDE68D92AFE06A4 /* [CP] Embed Pods Frameworks */ = {
+		4F0D114323D875E300322F31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		D6107B0FA3348886484B8330 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,7 +617,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Limelight/Pods-Limelight-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C63B2AD25424445F1840CC19 /* [CP] Check Pods Manifest.lock */ = {
+		F5BE6C3E83E7DF9DF1C13920 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,33 +646,87 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8AC71823DF65CD0052F933 /* PushNotificationManager.swift in Sources */,
+				4FF53DB823E7802700C7534F /* SearchViewController.swift in Sources */,
+				4F2BAEAA2391DFA700C7341E /* TinderButton2.swift in Sources */,
+				4F0D114223D8677600322F31 /* SearchRadiusContainerViewController.swift in Sources */,
+				4FF53DA423E4EF0300C7534F /* ContainerAnalyticsViewController.swift in Sources */,
+				4F0DB9C423909DB70072EE81 /* ChooseGenresViewController.swift in Sources */,
+				4FF53DBB23E7826100C7534F /* ContainerSearchViewController.swift in Sources */,
+				4F0D113823D7917700322F31 /* ArtistPayWall.swift in Sources */,
+				4F03230923D2DBDA00587B19 /* ArtistCell.swift in Sources */,
 				4F1CC80E235BA21800306F54 /* SignInViewController.swift in Sources */,
+				4F0D114023D8665E00322F31 /* SearchRadiusTableViewController.swift in Sources */,
 				4F458F7F235C064100933EB6 /* TinderButton.swift in Sources */,
 				4FB66B7223625F04009C6E3E /* LibraryViewController.swift in Sources */,
-				4F458F8B235C08A400933EB6 /* TrackCard.swift in Sources */,
+				4F321FDF23DEDA580007FFBF /* ContainerUploadViewController.swift in Sources */,
 				4F1CC807235B8D5E00306F54 /* Structures.swift in Sources */,
 				4F1CC810235BA22900306F54 /* SignUpViewController.swift in Sources */,
-				4F9DD91C235A99F400DCA4AC /* ViewController.swift in Sources */,
+				4FB6F5CE23B300AC00532AA2 /* TrackCommentsTableViewController.swift in Sources */,
+				4F8AC71C23E1257B0052F933 /* NotificationCenter.swift in Sources */,
+				4F0DB9C123909B7B0072EE81 /* SignUp2ViewController.swift in Sources */,
+				4F2BAEB423931BD000C7341E /* TopChartsViewController.swift in Sources */,
+				4F0D113B23D81B0000322F31 /* FirebaseManager.swift in Sources */,
+				4F0DB9C62390ADB20072EE81 /* IsArtistViewController.swift in Sources */,
+				4FFCD55F23778E030010B8AA /* TrackCell.swift in Sources */,
+				4F03230623D2C0ED00587B19 /* TopChartsSegmentViewController.swift in Sources */,
+				4FF3511123EA8182001A4F20 /* ContainerReportProblemViewController.swift in Sources */,
+				4F09B0E7237630C600A460F2 /* DiscoverCardCell.swift in Sources */,
+				4F5BD5D3238B24D6002CA7BC /* MainTabBarController.swift in Sources */,
+				4FFCD55B237782D40010B8AA /* LibraryTracksViewController.swift in Sources */,
+				4F321FCE23DE18300007FFBF /* Friend.swift in Sources */,
+				4F861E5923D076B300574937 /* FollowingViewController.swift in Sources */,
+				4F69DD5123C8265B00252BD1 /* UploadTableViewController.swift in Sources */,
+				4F5B35FC23AD362100D5C0E9 /* UserCommentsViewController.swift in Sources */,
+				4F12EDB823C5200400E19B85 /* TopChartsTableViewController.swift in Sources */,
+				4F5B35F823AD2DC100D5C0E9 /* CommentCell.swift in Sources */,
 				4F9DD922235A99F400DCA4AC /* Limelight.xcdatamodeld in Sources */,
-<<<<<<< HEAD
+				4FFCD559237776E20010B8AA /* LikedTracksViewController.swift in Sources */,
+				4F69DD5423C951C400252BD1 /* TrackOptionsViewController.swift in Sources */,
+				4F0DB9CA2390AF040072EE81 /* ArtistPlansViewController.swift in Sources */,
+				4F5B360223ADAE6300D5C0E9 /* UserCell.swift in Sources */,
+				4F0DB9C82390AE1A0072EE81 /* Helper.swift in Sources */,
 				4FE7DDD5235E3B60005210AA /* User.swift in Sources */,
+				4F2BAEAE239234D000C7341E /* UserLocationViewController.swift in Sources */,
+				4F62EE8D23CCC659005E4F4C /* TrackOptionsTableViewController.swift in Sources */,
 				4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */,
+				4FB6F5D123B3019100532AA2 /* TrackCommentsViewController.swift in Sources */,
+				4FF53DA923E520E800C7534F /* Stream.swift in Sources */,
 				4FCFFF0D235FB4F7006738C5 /* DiscoverViewController.swift in Sources */,
-=======
-				C4C8A160235D668B00CA103E /* Comment.swift in Sources */,
-				4F458F91235C0A1E00933EB6 /* TrackCardFooterView.swift in Sources */,
-				C4C8A158235D3EA200CA103E /* User.swift in Sources */,
-				C4C8A15C235D3FFF00CA103E /* Utils.swift in Sources */,
->>>>>>> 2c92e7713cc4612a0a835f442b1da129de2be8d5
+				4F1CDFCF2394E169004742CC /* TrackCollectionViewCell.swift in Sources */,
 				4F9DD918235A99F400DCA4AC /* AppDelegate.swift in Sources */,
+				4F8AC71A23DF71ED0052F933 /* PushNotificationSender.swift in Sources */,
+				4F69DD5923C9C76100252BD1 /* EditProfileViewController.swift in Sources */,
 				4F458F8F235C09E400933EB6 /* TrackCardContentView.swift in Sources */,
-				C4C8A15A235D3ED100CA103E /* Track.swift in Sources */,
+				4F5B360023ADAE1400D5C0E9 /* FollowersViewController.swift in Sources */,
+				4F5B360423ADAEBA00D5C0E9 /* LimelightUser.swift in Sources */,
+				4FF53DB223E6B2B100C7534F /* SearchTableViewController.swift in Sources */,
+				4F12EDBB23C5236F00E19B85 /* TopChartCell.swift in Sources */,
+				4F507248236286E800A9AFEC /* Extensions.swift in Sources */,
+				4FF53DB523E6E17800C7534F /* TableViewHelper.swift in Sources */,
+				4FF53DA223E4ED5A00C7534F /* AnalyticsTableViewController.swift in Sources */,
+				4F2BAEB72393271300C7341E /* UserProfileViewController.swift in Sources */,
+				4F6C80BD23E25710005F5025 /* System.swift in Sources */,
+				4FFCD55D23778AB50010B8AA /* DislikedTracksViewController.swift in Sources */,
+				4F03231123D2F30200587B19 /* ArtistTopChartsViewController.swift in Sources */,
+				4F07A2A6237FB97D0060138E /* AudioController.swift in Sources */,
 				4F458F7D235C060600933EB6 /* ButtonStackView.swift in Sources */,
 				4FE7DDD4235E3B60005210AA /* Comment.swift in Sources */,
 				4FE7DDD3235E3B60005210AA /* Track.swift in Sources */,
+				4FF3510F23EA7AED001A4F20 /* ReportProblemTableViewController.swift in Sources */,
+				4FC9E99923D579BD00ECE847 /* RoundedShadow.swift in Sources */,
+				4F5B35FE23ADAD1C00D5C0E9 /* UserFollowersViewController.swift in Sources */,
 				4F9DD91A235A99F400DCA4AC /* SceneDelegate.swift in Sources */,
+				4F03230B23D2DC2800587B19 /* Artist.swift in Sources */,
 				4F458F8D235C094000933EB6 /* TrackCardOverlay.swift in Sources */,
+				4FC9E99523D50B6300ECE847 /* ContainerUserProfileViewController.swift in Sources */,
 				4F1CC80A235B92F800306F54 /* Constants.swift in Sources */,
+				4F1CDFD223950189004742CC /* SideMenuViewController.swift in Sources */,
+				4F321FE423DEE1EA0007FFBF /* DiscoverCardPopUp.swift in Sources */,
+				4F5BD5CF238AD340002CA7BC /* MusicPlayerViewController.swift in Sources */,
+				4F03230D23D2EF2600587B19 /* TopArtistsTableViewController.swift in Sources */,
+				4F03230F23D2EF5500587B19 /* TopsTracksTableViewController.swift in Sources */,
+				4F8C504C23B3934C00CA25E1 /* Subscription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,18 +868,21 @@
 		};
 		4F9DD92C235A99F500DCA4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE4A63F56387C125B2BB2EBC /* Pods-Limelight.debug.xcconfig */;
+			baseConfigurationReference = 8D0792E92D58C66A69FC4AE4 /* Pods-Limelight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Limelight/Limelight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_TEAM = 24QN3T2DRS;
 				INFOPLIST_FILE = Limelight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.insomniapps.locartist;
-				PRODUCT_NAME = Limelight2;
+				PRODUCT_NAME = Limelight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -488,18 +890,21 @@
 		};
 		4F9DD92D235A99F500DCA4AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C7D2E0AACA745745AB914D7 /* Pods-Limelight.release.xcconfig */;
+			baseConfigurationReference = E411BE8F89BAE8104FB9CA4B /* Pods-Limelight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Limelight/Limelight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_TEAM = 24QN3T2DRS;
 				INFOPLIST_FILE = Limelight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.insomniapps.locartist;
-				PRODUCT_NAME = Limelight2;
+				PRODUCT_NAME = Limelight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,6 +932,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FF53DAA23E5494B00C7534F /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FF53DAB23E5494B00C7534F /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF53DAA23E5494B00C7534F /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4F9DD920235A99F400DCA4AC /* Limelight.xcdatamodeld */ = {

@@ -13,8 +13,23 @@ import Foundation
 // Not necessary right now?
 
 struct Comment {
-    static var text = ""
-    static var username = ""
-    static var uid = ""
-    static var datePosted = ""
+    var text = ""
+    var username = ""
+    var uid = ""
+    var profileImage = ""
+    var datePosted = 0
+    var commentId = ""
+    var fcmToken = ""
+    
+    init(text: String, username: String, uid: String, profileImage: String, datePosted: Int, commentId: String, fcmToken: String) {
+             
+             self.text = text
+             self.username = username
+             self.uid = uid
+        self.profileImage = profileImage
+             self.datePosted = datePosted
+        self.commentId = commentId
+        self.fcmToken = fcmToken
+            
+    }
 }
